@@ -54,7 +54,7 @@ I prefer to add it below the line ~55 that creates the "Index" title in the side
 ...
 <nav id="sidebar">
 <h1>Index</h1>
-<h3>Return to the project's <a href=" # absolute url of your project's homepage ">homepage</a></h3> # and here i add the line
+# and here i add the line
 ```
 
 ### Subdirectories
