@@ -35,6 +35,4 @@ The XX package was used to build example API documentation.
 
 ### Table of contents
 
-There is a built in table of contents taken from https://github.com/allejo/jekyll-toc that worked out of the box by
-adding the file in the included folder. By default it shows on the side bar of sidepage layout and uses the markdown
-titles and subtitles to generate the section pointers.
+The table of contents was taken from https://github.com/allejo/jekyll-toc.
