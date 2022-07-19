@@ -2,36 +2,121 @@
 layout: homepage
 ---
 
-# Welcome to quickemcee's site
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-## About
+[Link to another page](./another-page.html).
 
-A Python library to quickly set up MCMC scripts based on the `emcee` package. Includes functions and classes to quickly set up `emcee` objects, run MCMC, and analyze the results with minimum effort from the end user. 
+There should be whitespace between paragraphs.
 
-## Installation
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-```
-pip install quickemcee
-```
+# Header 1
 
-### Test installation
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-`quickemcee` should work out of the box, but there is a script in the Github repo called 'testquickemcee.py' to run in case you want to test the installation. If everything is OK the console should print two progress bars, and then display four images, after the computations are over.
+## Header 2
 
-## Referencing this work
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+### Header 3
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6857842.svg)](https://doi.org/10.5281/zenodo.6857842)
-
-Recommended BibTex citation
-
-```
-@software{quickemcee,
-  author       = {Scozziero, Sofia Anna},
-  title        = {quickemcee: simple prebuilt MCMC scripts},
-  month        = jul,
-  year         = 2022,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.6857842},
-  url          = {https://doi.org/10.5281/zenodo.6857842}
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
 }
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
 ```
