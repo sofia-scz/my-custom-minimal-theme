@@ -19,8 +19,6 @@ For API documentation generated with pdoc3 it's necessary to create a layout fil
 For convenciency save all API docs md files in a folder like docs, and all the html files in the layouts folder
 with a prefix such as api- or docs-.
 
-## Generating the htmls
-
 After the packaged is properly commented with docstrings and published in PyPI, install pdoc3 and run
 
 ```
