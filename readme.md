@@ -2,6 +2,15 @@
 
 My version of the minimal theme designed to document Python code. 
 
+## Link
+
+https://sofia-scz.github.io/mycustom-minimal/
+
+## Instructions
+
+Instructions for usage can be found in the generated gh page, under the directory 'instructions', a link will be
+provided in the homepage's sidebar.
+
 ## Additions/changes
 
 * Added examples of building API docs and adding them to Github pages
