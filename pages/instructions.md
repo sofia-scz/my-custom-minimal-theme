@@ -42,6 +42,21 @@ permalink: /#name of the index something like docs or api/
 ---
 ```
 
+Additionally, go the the html file and add a return button by adding something like
+
+```
+<h3>Return to the project's <a href=" # absolute url of your project's homepage ">homepage</a></h3>
+```
+
+I prefer to add it below the line ~55 that creates the "Index" title in the sidebar, the line looks like this
+
+```
+...
+<nav id="sidebar">
+<h1>Index</h1>
+<h3>Return to the project's <a href=" # absolute url of your project's homepage ">homepage</a></h3> # and here i add the line
+```
+
 ### Subdirectories
 
 And then for each subdirectory in the pdoc3 API, make a markdown page with the content
