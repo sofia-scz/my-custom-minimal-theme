@@ -20,6 +20,10 @@ Original theme is from https://github.com/pages-themes/minimal
 
 API docs are generated with https://pdoc3.github.io/pdoc/ from the docstrings in the package. 
 
+## Example package
+
+The XX package was used to build example API documentation.
+
 ### Table of contents
 
 There is a built in table of contents taken from https://github.com/allejo/jekyll-toc that worked out of the box by
