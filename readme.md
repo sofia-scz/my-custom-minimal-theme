@@ -1,56 +1,26 @@
 # My custom minimal theme for Github pages
 
-Original theme is https://github.com/pages-themes/minimal
+My version of the minimal theme designed to document Python code. 
 
-## Layouts
+## Additions/changes
 
-There are two built in layouts for markdown generated pages, one for the homepage, and another one for new pages,
-such as a tutorial or a bibliography section.
+* Added examples of building API docs and adding them to Github pages
+* Modified the css to be able to fit 80 characters length code in the body of each page, doesn't break
+rendering in neither 1080 nor 720 px screens, and works on both Mozilla and Chrome.
+* Changed the sidebar link to provide access to the API, the source code on Github, and a DOI link such
+as a Zenodo DOI or an article presenting the code.
 
-For API documentation generated with pdoc3 it's necessary to create a layout file for each generated html file.
+## Sources
 
-## API documentation
+### Base
 
-For convenciency save all API docs md files in a folder like docs, and all the html files in the layouts folder
-with a prefix such as api- or docs-.
+Original theme is from https://github.com/pages-themes/minimal
 
-## Generating the htmls
+### API documentations
 
-After the packaged is properly commented with docstrings and published in PyPI, install pdoc3 and run
+API docs are generated with https://pdoc3.github.io/pdoc/ from the docstrings in the package. 
 
-```
-pdoc --html -c latex_math=True packagenameinpypi
-```
-Remove the option latex_math if not necessary.
-
-### Index page
-
-pdoc3 generates an upper level directory named index. Upload the generated html to layouts, and create a markdown
-file with the following
-
-Name of the file api- or docs- index.md or something of the sorts
-
-Contents of the file
-
-```
----
-layout: #name of the index html file uploaded in layouts without the .html
-permalink: /#name of the index something like docs or api/
----
-```
-
-### Subdirectories
-
-And then for each subdirectory in the pdoc3 API, make a markdown page with the content
-
-```
----
-layout: #name of the html file uploaded in layouts without the .html---
-permalink: /#name of the index/#name of the submodule.html
----
-```
-
-## Table of contents
+### Table of contents
 
 There is a built in table of contents taken from https://github.com/allejo/jekyll-toc that worked out of the box by
 adding the file in the included folder. By default it shows on the side bar of sidepage layout and uses the markdown
