@@ -20,7 +20,7 @@ Original theme is from https://github.com/pages-themes/minimal
 
 API docs are generated with https://pdoc3.github.io/pdoc/ from the docstrings in the package. 
 
-## Example package
+### Example package
 
 The XX package was used to build example API documentation.
 
